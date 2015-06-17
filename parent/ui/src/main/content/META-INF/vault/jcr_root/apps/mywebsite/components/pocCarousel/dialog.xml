@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="test dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Slide 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <dialogfset
+                        jcr:primaryType="cq:Widget"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <imagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Image1:"
+                                name="./image1"
+                                xtype="browsefield"/>
+                            <pagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Link 1:"
+                                name="./path1"
+                                xtype="pathfield"/>
+                            <abstracttext
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Abstract Text1:"
+                                name="./abstracttext1"
+                                xtype="textarea"/>
+                        </items>
+                    </dialogfset>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Slide 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <dialogfset
+                        jcr:primaryType="cq:Widget"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <imagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Image2:"
+                                name="./image2"
+                                xtype="browsefield"/>
+                            <pagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Link 2:"
+                                name="./path2"
+                                xtype="pathfield"/>
+                            <abstracttext
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Abstract Text2:"
+                                name="./abstracttext2"
+                                xtype="textarea"/>
+                        </items>
+                    </dialogfset>
+                </items>
+            </tab2>
+            <tab3
+                jcr:primaryType="cq:Panel"
+                title="Slide 3">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <dialogfset
+                        jcr:primaryType="cq:Widget"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <imagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Image3:"
+                                name="./image3"
+                                xtype="browsefield"/>
+                            <pagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Link 3:"
+                                name="./path3"
+                                xtype="pathfield"/>
+                            <abstracttext
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Abstract Text3:"
+                                name="./abstracttext3"
+                                xtype="textarea"/>
+                        </items>
+                    </dialogfset>
+                </items>
+            </tab3>
+            <tab4
+                jcr:primaryType="cq:Panel"
+                title="Slide 4">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <dialogfset
+                        jcr:primaryType="cq:Widget"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <imagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Image4:"
+                                name="./image4"
+                                xtype="browsefield"/>
+                            <pagelink
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Link 4:"
+                                name="./path4"
+                                xtype="pathfield"/>
+                            <abstracttext
+                                jcr:primaryType="cq:Widget"
+                                fieldLabel="Abstract Text4:"
+                                name="./abstracttext4"
+                                xtype="textarea"/>
+                        </items>
+                    </dialogfset>
+                </items>
+            </tab4>
+        </items>
+    </items>
+</jcr:root>

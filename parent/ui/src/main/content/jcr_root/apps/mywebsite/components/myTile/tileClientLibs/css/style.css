@@ -1,0 +1,161 @@
+/*.canpaignTileContentNab{width:95%; height:260px; margin-left:10px; overflow:hidden;}
+.canpaignTileContentNab a{text-decoration:none; color:#000; font-weight:700;}
+.canpaignTileContentNab .tileImgNab{ width:94%; height:60%; border:1px solid #ccc; border-radius:5px; padding:1px; text-align:center;}
+.canpaignTileContentNab .tileImgNab img{display: block;
+	height: auto;
+	max-width: 100%;border-radius: 5px;}
+.canpaignTileContentNab .desc{font-size:12px; padding :3px;}
+.contentContainerRightNab .canpaignTileBigNab .canpaignTileContentNab{width:95%; height:300px; margin-left:0px; overflow:hidden;}
+
+
+.flightSmallTileContainer{width:95%;}*/
+.new{margin:0;padding:0;}
+.cq-placeholder, .new{height:0;}
+.flightSmallTileContainer a{text-decoration:none;}
+.flightSmallTileContainer .smallTileNab{border: 1px solid rgb(254,124,0);margin: 6px 2px 12px;width: 100%;}
+.flightSmallTileContainer .tileSmallImageNab{background-color: rgb(254,124,0);cursor: pointer;display: table;font-family: CoreSansN55;padding: 28px 0;width: 20%; position:relative; float:left;}
+.flightSmallTileContainer .tileSmallImageNab img{left: 0;top: 0;width: 100%;position:absolute;height: 100%;}
+.flightSmallTileContainer .smallTilePriceNab{color: #fff;height: 28px;margin: auto;position: relative;text-align: center;width: 74px;z-index: 2;display: inline-block;}
+.flightSmallTileContainer .smallTilePriceNab .character.characters-2{
+float: left;
+    font-size: 36px;
+    line-height: 29px;
+    position: relative;
+    top: 0;
+	}
+.flightSmallTileContainer .smallTilePriceNab .units-holder{
+	display: inline-block;
+    float: left;
+    height: 28px;
+    overflow: hidden;
+    position: relative;
+    width: 18px;}
+	 .flightSmallTileContainer .smallTilePriceNab .units-holder .currency {
+    font-family: CoreSansN47;
+    font-size: 18px;
+    height: 14px;
+    line-height: 18px;
+    position: relative;
+    top: -1px;
+}
+
+.flightSmallTileContainer .smallTilePriceNab .units-holder .units:before {
+    content: ".";
+}
+.flightSmallTileContainer .smallTilePriceNab .units-holder .units {
+    bottom: 0;
+    font-family: CoreSansN45;
+    font-size: 10px;
+    left: 0;
+    line-height: 12px;
+    position: absolute;
+    width: 15px;
+}
+.flightSmallTileContainer .tileSmallTextNab{display: table;
+    height: 78px;
+    position: relative;
+    width: 63%;float: right;
+	}
+	
+.flightSmallTileContainer .tileSmallTextNab .inner {
+    display: table-cell;
+    padding: 0 2px;
+    position: relative;
+    vertical-align: middle;
+}
+.flightSmallTileContainer .tileSmallTextNab .cut-overflow {
+    max-height: 68px;
+    overflow: hidden;
+}
+
+.flightSmallTileContainer .tileSmallTextNab .city {
+    display: block;
+    float: none;
+    font-family: CoreSansN45;
+    font-size: 24px;
+    line-height: 26px;
+    max-width: 158px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flightSmallTileContainer .tileSmallTextNab .country {
+    color: rgb(254,124,0);
+    display: block;
+    font-family: CoreSansN45;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.flightSmallTileContainer .tileSmallTextNab .desc {
+    color: rgb(255,58,2);
+    display: block;
+    font-family: CoreSansN47;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 4px;
+    max-width: 158px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flightSmallTileContainer .tileSmallTextNab .inner .claim {
+    background: none repeat scroll 0 0 #fff;
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 115px;
+}
+.flightSmallTileContainer .tileSmallTextNab .inner:hover .claim {
+    display: block;
+}
+.flightSmallTileContainer .tileSmallTextNab .d-none {
+    display: none;
+}
+
+.flightSmallTileContainer .tileSmallTextNab .date {
+    color: #45525E;
+    display: block;
+    font-family: CoreSansN45;
+    font-size: 13px;
+    margin: 12px auto 4px;
+    max-width: 158px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 115px;
+}
+
+.flightSmallTileContainer .tileSmallTextNab .claim-button a {
+    background: none repeat scroll 0 0 rgb(255,85,0);
+    color: #fff;
+    display: block;
+    float: none;
+    font-family: CoreSansN45;
+    height: 36px;
+    line-height: 36px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 145px;
+}
+
+.flightSmallTileContainer .tileSmallTextNab .claim-button a .icon-mess:after {
+    display: block;
+    font-family: icons;
+    font-size: 64px;
+    height: 16px;
+    left: -16px;
+    line-height: 1;
+    position: absolute;
+    text-transform: none;
+    top: -20px;
+    width: 16px;
+}
+.flightSmallTileContainer .tileSmallTextNab .claim-button a .icon-mess {
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    width: 16px;
+}
+a{text-decoration:none;}
+.tileSmallImageNab .smallTilePriceNab{background-color: rgba(123,115,97, 0.8);}

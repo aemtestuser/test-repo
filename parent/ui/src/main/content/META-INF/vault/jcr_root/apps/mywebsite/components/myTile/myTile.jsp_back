@@ -1,0 +1,28 @@
+<%--
+
+  myTile component.
+
+  Tile Component
+
+--%><%
+%><%@include file="/libs/foundation/global.jsp"%>
+<%@ page import="com.day.cq.wcm.foundation.Image" %><%
+%><%@page session="false" %><%
+%><%
+
+%>
+<cq:includeClientLib categories="tile.libs"/>
+
+
+<div id = "myTile" class="canpaignTileContentNab">
+
+    <a href="<%= properties.get("URL")%>.html"><%=properties.get("Heading")%></a>
+
+    <%
+   Image image = new Image(resource, "image");
+ image.setSelector(".img"); // use image script
+	%>
+<div><% image.draw(out); %></div>
+
+<div class="desc"><%=properties.get("Description")%></div>
+</div>

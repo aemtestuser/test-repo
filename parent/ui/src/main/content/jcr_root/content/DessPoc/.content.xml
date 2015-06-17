@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <jcr:content/>
+    <en/>
+    <fr/>
+    <rep:policy/>
+    <de/>
+    <en_IE/>
+    <fr_FR/>
+    <fr_BE/>
+    <de_DE/>
+    <de_AT/>
+    <en_GB/>
+    <testbench/>
+</jcr:root>

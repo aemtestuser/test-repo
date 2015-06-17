@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:lastReplicated="{Date}2015-01-09T17:15:50.996+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="sling:OsgiConfig"
+    datasource.name="pocds"
+    default.autocommit="{Boolean}true"
+    jdbc.connection.uri="jdbc:mysql://10.18.6.118:3307/test"
+    jdbc.driver.class="com.mysql.jdbc.Driver"
+    jdbc.password="root"
+    jdbc.username="root"
+    pool.max.wait.msec="{Long}5000"
+    pool.size="{Long}50"/>

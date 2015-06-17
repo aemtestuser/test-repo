@@ -1,0 +1,8 @@
+{
+"AUTOMATICPAYMENTDEBIT/key" : "AUTOMATICPAYMENTDEBIT",
+"AUTOMATICPAYMENTDEBIT/label" :"Automatic payment debit",
+"AUTOMATICPAYMENTDEBIT/value" :"true",
+"ONLINESTATEMENT/key" : "ONLINESTATEMENT",
+"ONLINESTATEMENT/label" : "Online statement",
+"ONLINESTATEMENT/value" : "false"
+}

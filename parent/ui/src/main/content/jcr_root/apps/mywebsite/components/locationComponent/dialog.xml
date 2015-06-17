@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Location Map">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <location
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter either latitude,longitude or name of the location"
+                        fieldLabel="Enter the location"
+                        name="./location"
+                        xtype="textfield"/>
+                    <latLong
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter latitude and Longitude to show marker on the map in the format(22.5667, 88.3667)"
+                        fieldLabel="Latitude/Longitude"
+                        name="./latLong"
+                        xtype="textfield"/>
+                    <mapType
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the type of the map to display"
+                        fieldLabel="Map Type"
+                        name="./mapType"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <roadmap
+                                jcr:primaryType="nt:unstructured"
+                                text="roadmap"
+                                value="roadmap"/>
+                            <satellite
+                                jcr:primaryType="nt:unstructured"
+                                text="satellite"
+                                value="satellite"/>
+                            <hybrid
+                                jcr:primaryType="nt:unstructured"
+                                text="hybrid"
+                                value="hybrid"/>
+                            <terrain
+                                jcr:primaryType="nt:unstructured"
+                                text="terrain"
+                                value="terrain"/>
+                        </options>
+                    </mapType>
+                    <zoom
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="5"
+                        fieldLabel="Zoom"
+                        name="./zoom"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="de"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:unstructured">
+    <This_x0020_is_x0020_the_x0020_English_x0020_Site
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dies ist die deutsche Website"/>
+    <All_x0020_Rights_x0020_Reserved
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Alle Rechte Vorbehalten"/>
+    <The_x0020_user_x0020_could_x0020_not_x0020_be_x0020_found.
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Der Benutzer konnte nicht gefunden werden."/>
+    <LogIn_Register
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="LogIn/Register"
+        sling:message="Einloggen / Registrieren"/>
+    <Home
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Zuhause"/>
+    <campaign
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kampagne"/>
+    <Flying_x0020_from
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Fliegen au"/>
+    <Search_x0020_Flights
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Suche Flüge"/>
+    <About_x0020_Us
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Über Uns"/>
+    <Flight_x0020_Destination
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Flug Reiseziel"/>
+    <Contact_x0020_Us
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Kontaktieren Sie Uns"/>
+    <Flight_x0020_Results
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Flug Ergebnisse"/>
+    <Login
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Einloggen"/>
+    <Register
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Registrieren"/>
+    <Going_x0020_to
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Going to"/>
+    <Date_x0020_of_x0020_Journey
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Datum der Reise"/>
+    <Adults
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Erwachsene"/>
+    <Book
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Reserve"/>
+    <Airlines
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Fluggesellschaften"/>
+    <Depart
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Abfahren"/>
+    <Price
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Preis"/>
+    <Duration
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Dauer"/>
+    <Arrive
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Ankommen"/>
+    <Searched_x0020_Info
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gesucht Info"/>
+    <No_x0020_of_x0020_Adults
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Anzahl Erwachsene"/>
+    <on
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="auf"/>
+    <to
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="bis"/>
+    <Search_x0020_Flights_x0020_Again
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Suche Flüge Wieder"/>
+    <Fare_x0020_Summary
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Fare Zusammenfassung"/>
+    <Flight
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Flug"/>
+    <Base_x0020_fare_x0020__x0028_per_x0020_person_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Basistarif (pro Person)"/>
+    <Taxes_x0020_and_x0020_fares
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Steuern und Tarife&#xa;"/>
+    <Total
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Gesamt"/>
+    <Add_x0020_to_x0020_Cart
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="In den Warenkorb legen"/>
+    <to0
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="TO"
+        sling:message="bis"/>
+    <Book_x0020_in_x0020_three_x0020_Simple_x0020_Steps
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Buch in drei einfachen Schritten"/>
+    <Review_x0020_your_x0020_flight_x0020_details
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Überprüfen Sie Ihre Flugdaten"/>
+    <Itinerary
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Reiseroute"/>
+    <Economy
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Wirtschaft"/>
+    <Baggage_x0020_information
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Reisegepäck"/>
+    <Check-in
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Einchecken"/>
+    <person
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Person"/>
+    <more_x0020_info
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="weitere Informationen&#xa;"/>
+    <Have_x0020_a_x0020_coupon_x0020_code_x0020_or_x0020_gift_x0020_card_x0020_to_x0020_redeem_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Haben Sie einen Gutschein-Code oder Geschenkkarte einlösen?"/>
+    <Apply_x0020_code
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Bewerben Code"/>
+    <adult_x0028_s_x0029_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Erwachsene (n)"/>
+    <Tell_x0020_us_x0020_who_x0027_s_x0020_travelling_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Sagen Sie uns, die Reisen für Frauen ?"/>
+    <Travellers
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Reisende"/>
+    <Add_x0020_Content_x0020_Step_x0020_2
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Inhalt hinzufügen Schritt 2"/>
+    <How_x0020_would_x0020_you_x0020_like_x0020_to_x0020_pay_x003f_
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Wie möchten Sie bezahlen?"/>
+    <Add_x0020_Content_x0020_Step_x0020_3
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Inhalt hinzufügen Schritt 3"/>
+    <Payment
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Bezahlung"/>
+    <Continue_x0020_booking
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="Weiter Buchungs"/>
+    <Login_x0020___x0020_Register
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Login / Register"
+        sling:message="Einloggen / Registrieren"/>
+</jcr:root>

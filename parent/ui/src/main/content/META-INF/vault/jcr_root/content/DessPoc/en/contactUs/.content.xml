@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-01-15T14:01:36.261+05:30"
+        cq:lastModifiedBy="sourav"
+        cq:template="/apps/mywebsite/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact Us"
+        sling:resourceType="mywebsite/components/contentpage">
+        <wideSlider
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <expandable
+                jcr:created="{Date}2015-01-13T18:35:20.993+05:30"
+                jcr:createdBy="sourav"
+                jcr:lastModified="{Date}2015-01-13T18:35:20.993+05:30"
+                jcr:lastModifiedBy="sourav"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mywebsite/components/expandable"/>
+            <text_0
+                jcr:created="{Date}2015-01-08T17:57:29.487+05:30"
+                jcr:createdBy="sourav"
+                jcr:lastModified="{Date}2015-01-15T14:01:36.253+05:30"
+                jcr:lastModifiedBy="sourav"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </wideSlider>
+        <centre
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+    </jcr:content>
+</jcr:root>

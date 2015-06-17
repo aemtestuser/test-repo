@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Defines which repository items are generally included
+-->
+<workspaceFilter vesion="1.0">
+<filter root="/apps/mywebsite" />
+<filter root="/etc/designs/mywebsite" />
+<filter root="/content/DessPoc/en" />
+</workspaceFilter>

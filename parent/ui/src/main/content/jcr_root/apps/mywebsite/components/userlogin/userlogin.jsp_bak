@@ -1,0 +1,78 @@
+<%@ page import="java.util.HashMap" %>
+<%@include file="/libs/foundation/global.jsp"%>
+<%
+
+
+	String userName_p = request.getParameter("username") ;
+	String name_p="";
+	String url = "";
+	String msg="";
+//if(request.getParameter("submit_btn") != null) {
+
+/*HashMap<String, String> hm = new HashMap<String, String>(); 
+        hm.put("santanu","Santanu");
+        hm.put("roshmi","Roshmi");
+        hm.put("ritwik","Ritwik");
+        hm.put("nabanita","Nabanita");
+        hm.put("arijit","Arijit");
+
+		name_p = hm.get(userName_p);
+        if(name_p == null || name_p.equals("")){
+            msg = "Invalid user name";
+            response.sendRedirect("/content/pocWebsite/userlogin.html");
+            return;
+            }*/
+
+        Cookie userName = new Cookie("userName","Santanu");
+    	Cookie name = new Cookie("name","Santanu");
+		//Set expiry date after 24 Hrs for both the cookies.
+    	userName.setMaxAge(120); 
+    	name.setMaxAge(120); 
+		userName.setPath("/");
+    	name.setPath("/");
+   		// Add both the cookies in the response header.
+    	response.addCookie( userName );
+    	response.addCookie( name );
+// }
+
+// Get an array of Cookies associated with this domain
+/*String loggedUserName="";
+   String loggedName="";
+   Cookie cookie = null;
+   Cookie[] cookies = null;
+   cookies = request.getCookies();
+   if( cookies != null ){
+      for (int i = 0; i < cookies.length; i++){
+         cookie = cookies[i];
+         if (cookie.getName().equals("userName")) {
+             //out.print("userName : " + cookie.getValue( ));
+             loggedUserName = cookie.getValue();
+             //out.print("userName : " + loggedUserName);
+         }
+      }
+      }*/
+
+//response.sendRedirect("/content/pocWebsite.html");
+%>
+
+
+<a href="/content/pocWebsite.html"><% out.print("Back to Home"); %></a>
+<div><%=msg %></div>
+<br><br>
+<form action="/content/pocWebsite/userlogin.html">
+    <table>
+        <tr><td colspan="2">Customer Login</td><tr>
+
+
+
+    <tr>
+        <td><label>Username </label></td>	
+        <td><input type="text" name="username" id="username" /></td>
+    </tr>
+
+
+
+        <tr><td colspan="2"><input type="submit" name="submit_btn" value="Login" /></td><tr>
+        </table>
+
+</form>

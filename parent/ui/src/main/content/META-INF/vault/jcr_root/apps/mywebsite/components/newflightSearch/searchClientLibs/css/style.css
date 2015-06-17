@@ -1,0 +1,59 @@
+#myform  {
+    font-family: "easyjet_rounded_lightRg",Arial,Verdana,Tahoma,Georgia,sans-serif;
+    font-size:0.9em;
+    border-radius:5px;
+    z-index: 10;
+    margin: 25px auto;
+width: 85%;
+padding: 17px 9px 10px;
+border: 0 solid #FE7C00;
+border-width: 1px 0 0 1px;
+background: -webkit-linear-gradient(bottom, #FF5500, #FE7C00);
+background: linear-gradient(bottom, #FF5500, #FE7C00);
+    background: -moz-linear-gradient(bottom, #FF5500, #FE7C00);
+box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+span.readOutHidden, label.readOutHidden, div.readOutHidden {
+position: absolute;
+top: 0;
+left: -9999px;
+}
+.redNab{color:red;}
+.searchFieldNab{padding-bottom:5px;}
+.searchFieldNab label{padding-bottom: 3px;display: block;}
+.searchFieldNab input{width: 80%;border-radius: 5px;border: 1px solid #ccc;height: 30px;padding-left: 5px;}
+#readInfo h2.searchresHeading{border-bottom: 1px solid #3b3453;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 10px 10px;
+    padding-bottom: 5px;}
+.whiteNabVal {
+    color: #fff; font-weight:bold;font-size:15px;
+}
+#readInfo label {
+   line-height: 1.4em;color: #fff; font-size:13px;
+}
+.buttonCTA.orangeWhite {
+    background: -webkit-linear-gradient(bottom, #554844 0%, #554044 95%, #553644 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+background: linear-gradient(center top , #554844 0%, #554044 95%, #553644 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+   background: -moz-linear-gradient(center top ,  #554844 0%, #554044 95%, #553644 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    /*box-shadow: 0 1px 1px #e558b1 inset, 0 0 0 3px rgba(0, 0, 0, 0.1);*/
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    height: 42px;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+    border:0px;
+}
+.buttonCTA.orangeWhite:hover {
+   background: -moz-linear-gradient(center top , #0c3297 0%, #0c517d 95%, #0c518b 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+     background: linear-gradient(center top , #0c3297 0%, #0c517d 95%, #0c518b 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+     background: -webkit-linear-gradient(bottom , #0c3297 0%, #0c517d 95%, #0c518b 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,101 @@
+.new {
+    margin:0px;
+}
+.cq-placeholder, .new {
+    height: 0px;
+}
+.cart_container{width:85%;margin:0 auto;font-family: "easyjet_rounded_lightRg",Arial,Verdana,Tahoma,Georgia,sans-serif;}
+.cart_container h1{text-align:center;padding:10px 0;}
+	.cart_container .cartSection{box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); border-bottom:1px solid #ccc;}
+.cart_container .cartSection.stepOpen{border-top-left-radius:0.7em;
+border-top-right-radius:0.7em; color:#fff;}
+	.pullRight{float:right;}
+	.cart_container .subHeading{ font-size:13px;margin-top:3px;}
+	.cart_container .stepOpen .cartSectionHeading{background-color: #FF5500;background-image: linear-gradient(#FF5500, #FF7D00);border-bottom: 1px solid #000;padding:10px;border-top-left-radius:0.7em;
+border-top-right-radius:0.7em; font-size:0.7em;}
+.cart_container .cartsteps{ color:#fff;margin-right: 5px;background-color: #436799;background-image: linear-gradient(#375984, #436799);border-bottom: 1px solid #5185bb;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;border-radius: 0.3em;display: block;float: left;font-size: 15px;height: 23px;line-height: 23px;text-align: center;width: 23px;}
+.cart_container .cartSectionHeading h2{font-size: 17px;line-height: 19px; }
+.cart_container  .stepClose .cartSectionHeading{background-color: rgba(255, 255, 255, 0);background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));border-bottom: 1px solid #ccc;padding:10px;color:#5b5b5b;}
+.cart_container  .stepOpen .cartStepDetails{color:#000; padding: 10px 50px; width:80%;}
+.cart_container  .cartStepDetailsitinerary{margin-left:0px;}
+.cart_container  .cartStepDetailsitinerary h1{margin-bottom: 20px;
+    margin-top: 10px;font-size: 22px;
+    font-weight: bold; text-align:left;}
+.cart_container  .cartStepDetailsitinerary h1 span{font-size: 84.61%;
+    line-height: 1em; color:#ccc;}
+.cart_container  .cartStepDetailsitinerary .itinerarySummary .vendor, .cart_container  .cartStepDetailsitinerary .itinerarySummary .start, .cart_container  .cartStepDetailsitinerary .itinerarySummary .details, .cart_container  .cartStepDetailsitinerary .itinerarySummary .end {
+    display: table-cell;
+    vertical-align: top;
+}
+.cart_container  .cartStepDetailsitinerary ul.itinerarySummary {
+    display: table;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+ul {
+    list-style: none outside none;
+}
+.cart_container  .cartStepDetailsitinerary .airLogo {
+    float: left;
+    height: 33px;
+    margin: 4px 8px 8px 0;
+    position: relative;
+    width: 25%;
+}
+.cart_container  .cartStepDetailsitinerary .airlineName {
+    width: 50%;float: left;
+}
+.bigTextsmall{color:#000;font-size:14px; display:block;}
+.smallTextsmall{color:#b3b3b3;font-size:12px;display:block;}
+.vendor{width:16%;}
+.start,.end{width:20%;}.details{width:12%;}
+.couponHolder{border-top:1px solid #ccc;border-bottom:1px solid #ccc; text-align:center; padding:10px;}
+.totalAmount{text-align:center; padding:10px;}
+.applyCouponBUtton{padding:10px;}
+.couponGiftCardField{
+-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    margin-right: -5px;
+    padding: 5px;width: 30%;
+	border-right: 1px solid;
+    }
+.applyCodeButton{
+	 background-color: #ff5500;
+    background-image: linear-gradient(#FF5500, #FF7D00);
+    border: 1px solid #9aacb8;
+    border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    overflow: visible;
+    padding: 6px 8px;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 14%;}
+	.totalbah{color:#b3b3b3;font-size:16px;}
+.bookingContinue{ background-color: #ff7e33;
+    background-image: linear-gradient(rgba(204, 80, 31, 0), #cc501f);
+    border: 1px solid #b32d00;
+    border-radius: 0.4em;
+    color: #f9f9f9;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    overflow: visible;
+    padding: 0.35em 1em 0.4em;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #cc3300;
+    width: auto;}
+.donotShow{display:none;}

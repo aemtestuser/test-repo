@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    title="Other Details">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <latitude
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Enter latitude"
+            name="./latitude"
+            xtype="textfield"/>
+        <longitude
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Enter Longitude"
+            name="./longitude"
+            xtype="textfield"/>
+        <city
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Enter City"
+            name="./city"
+            xtype="textfield"/>
+        <country
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Enter Country"
+            name="./country"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

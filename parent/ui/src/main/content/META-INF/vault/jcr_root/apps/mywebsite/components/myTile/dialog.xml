@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <Origin
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Origin Location"
+                        name="./origin"
+                        xtype="textfield"/>
+                    <originAirport
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Origin Airport"
+                        name="./originAirport"
+                        xtype="textfield"/>
+                    <Destination
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Destination Location"
+                        name="./destination"
+                        xtype="textfield"/>
+                    <destinationAirport
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Destination Airport"
+                        name="./destinationAirport"
+                        xtype="textfield"/>
+                    <currency
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Currency"
+                        name="./currency"
+                        xtype="textfield"/>
+                    <Units
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Units"
+                        name="./units"
+                        xtype="textfield"/>
+                    <Date
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Available Date"
+                        hideTime="{Boolean}true"
+                        name="./mydate"
+                        xtype="datetime"/>
+                    <Alert_x0020_Tag
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Alert tag"
+                        name="./Alert"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <Option1
+                                jcr:primaryType="nt:unstructured"
+                                text="Hot Deal"
+                                value="Hot Deal"/>
+                            <Option2
+                                jcr:primaryType="nt:unstructured"
+                                text="Selling out fast"
+                                value="Selling out fast"/>
+                            <Option_x0020_3
+                                jcr:primaryType="nt:unstructured"
+                                text="Dont Miss Out"
+                                value="Dont Miss Out"/>
+                        </options>
+                    </Alert_x0020_Tag>
+                    <Link
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Link"
+                        name="./URL"
+                        rootPath="/content/pocWebsite"
+                        xtype="pathfield"/>
+                    <Heading
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Text"
+                        name="./Heading"
+                        xtype="textfield"/>
+                    <Description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Description"
+                        name="./Description"
+                        xtype="textarea"/>
+                </items>
+            </tab1>
+            <image
+                jcr:primaryType="cq:Widget"
+                cropParameter="./image/imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./image/fileName"
+                fileReferenceParameter="./image/fileReference"
+                mapParameter="./image/imageMap"
+                name="./image/file"
+                requestSuffix="/image.img.png"
+                rotateParameter="./image/imageRotate"
+                sizeLimit="100"
+                title="Image"
+                xtype="html5smartimage">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <resType
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </image>
+            <advanced
+                jcr:primaryType="cq:Widget"
+                title="Advanced Image Properties"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Title"
+                        name="./image/jcr:title"
+                        xtype="textfield"/>
+                    <alt
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="(leave empty to use the title defined above)"
+                        fieldLabel="Alt Text"
+                        name="./image/alt"
+                        xtype="textfield"/>
+                    <linkURL
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Link to"
+                        name="./image/linkURL"
+                        rootPath="/content/company"
+                        xtype="pathfield"/>
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Description"
+                        name="./image/jcr:description"
+                        xtype="textarea"/>
+                    <size
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Size"
+                        heightParameter="./image/height"
+                        widthParameter="./image/width"
+                        xtype="sizefield"/>
+                </items>
+            </advanced>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,25 @@
+.canpaignTileContentNab{width:100%; margin-left:10px; overflow:hidden; margin-top: 5px;}
+.picBoxNab{width:100%; position:relative;margin-bottom:10px;}
+.picBoxNab img{width:100%; height:100%;}
+.canpaignTileContentNab a{text-decoration:none; color:#000; font-weight:700;}
+.canpaignTileContentNab .tileImgNab{ width:94%; height:60%; border:1px solid #ccc; border-radius:5px; padding:1px; text-align:center;}
+.canpaignTileContentNab .tileImgNab img{display: block;
+	height: auto;
+	max-width: 100%;border-radius: 5px;}
+.canpaignTileContentNab .desc{font-size:12px; background-color: rgba(123,115,97, 0.8);
+    bottom: 0;
+    padding: 18px 20px 20px;
+    position: absolute;
+    /*width: 87%;*/}
+.contentContainerRightNab .canpaignTileBigNab .canpaignTileContentNab{width:100%; margin-left:0px; overflow:hidden;}
+.contentContainerRightNab .desc .country-name {
+    color: #0C3B8E;
+    font: 24px/24px "CoreSansN25";
+    text-transform: uppercase;
+}
+
+ .contentContainerRightNab .desc .text {
+    color: #fff;
+    font: 14px/18px "CoreSansN45";
+    margin: 8px 0 2px;
+}

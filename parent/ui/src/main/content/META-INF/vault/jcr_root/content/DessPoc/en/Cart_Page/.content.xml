@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-12-31T11:38:48.270+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/mywebsite/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Cart_Page"
+        sling:resourceType="mywebsite/components/contentpage"
+        hideInNav="{Boolean}true">
+        <image
+            jcr:lastModified="{Date}2014-12-30T12:22:06.123+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <fullpagewidth
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <flightcart
+                jcr:created="{Date}2014-12-30T15:06:12.645+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-12-30T15:06:12.645+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mywebsite/components/flightCart"/>
+        </fullpagewidth>
+    </jcr:content>
+</jcr:root>

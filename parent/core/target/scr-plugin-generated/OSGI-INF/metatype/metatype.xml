@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.day.cq5.scheduler.CleanupServiceImpl" name="Cleanup Service" description="%com.day.cq5.scheduler.CleanupServiceImpl.description">
+        <AD id="scheduler.expression" type="String" default="*/4 * * * * ?" name="%scheduler.expression.name" description="%scheduler.expression.description"/>
+        <AD id="cleanupPath" type="String" default="/tmp/mypath" name="Path" description="Delete this path"/>
+    </OCD>
+    <OCD id="com.tcs.dess.poc.db.impl.DBServiceImpl" name="%com.tcs.dess.poc.db.impl.DBServiceImpl.name" description="%com.tcs.dess.poc.db.impl.DBServiceImpl.description"/>
+    <OCD id="com.tcs.dess.poc.um.impl.UserManagementImpl" name="%com.tcs.dess.poc.um.impl.UserManagementImpl.name" description="%com.tcs.dess.poc.um.impl.UserManagementImpl.description"/>
+    <OCD id="com.day.cq5.myapp.MySafeMethodServlet" name="%com.day.cq5.myapp.MySafeMethodServlet.name" description="%com.day.cq5.myapp.MySafeMethodServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/company/repo" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <OCD id="com.day.cq5.myapp.FlightSearchServlet" name="%com.day.cq5.myapp.FlightSearchServlet.name" description="%com.day.cq5.myapp.FlightSearchServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/FlightSearchServlet" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.resourceTypes" type="String" default="mywebsite/components/contentpage" name="%sling.servlet.resourceTypes.name" description="%sling.servlet.resourceTypes.description"/>
+        <AD id="sling.servlet.selectors" type="String" default="data" name="%sling.servlet.selectors.name" description="%sling.servlet.selectors.description"/>
+    </OCD>
+    <OCD id="com.day.cq5.myapp.RegistrationServlet" name="%com.day.cq5.myapp.RegistrationServlet.name" description="%com.day.cq5.myapp.RegistrationServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/poc/registration" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+    </OCD>
+    <OCD id="com.tcs.dess.poc.um.servlet.UserManagementServlet" name="%com.tcs.dess.poc.um.servlet.UserManagementServlet.name" description="%com.tcs.dess.poc.um.servlet.UserManagementServlet.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/authenticate.html,/bin/register.html" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description" cardinality="2147483647"/>
+        <AD id="sling.servlet.methods" type="String" default="POST" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+    </OCD>
+    <Designate pid="com.day.cq5.scheduler.CleanupServiceImpl">
+        <Object ocdref="com.day.cq5.scheduler.CleanupServiceImpl"/>
+    </Designate>
+    <Designate pid="com.tcs.dess.poc.db.impl.DBServiceImpl">
+        <Object ocdref="com.tcs.dess.poc.db.impl.DBServiceImpl"/>
+    </Designate>
+    <Designate pid="com.tcs.dess.poc.um.impl.UserManagementImpl">
+        <Object ocdref="com.tcs.dess.poc.um.impl.UserManagementImpl"/>
+    </Designate>
+    <Designate pid="com.day.cq5.myapp.MySafeMethodServlet">
+        <Object ocdref="com.day.cq5.myapp.MySafeMethodServlet"/>
+    </Designate>
+    <Designate pid="com.day.cq5.myapp.FlightSearchServlet">
+        <Object ocdref="com.day.cq5.myapp.FlightSearchServlet"/>
+    </Designate>
+    <Designate pid="com.day.cq5.myapp.RegistrationServlet">
+        <Object ocdref="com.day.cq5.myapp.RegistrationServlet"/>
+    </Designate>
+    <Designate pid="com.tcs.dess.poc.um.servlet.UserManagementServlet">
+        <Object ocdref="com.tcs.dess.poc.um.servlet.UserManagementServlet"/>
+    </Designate>
+</metatype:MetaData>

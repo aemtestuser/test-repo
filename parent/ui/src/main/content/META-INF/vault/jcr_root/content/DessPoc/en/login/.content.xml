@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-12-31T11:38:48.147+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/mywebsite/templates/logintemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Login"
+        sling:resourceType="mywebsite/components/userlogin"
+        hideInNav="true"
+        targetPage="/content/DessPoc/en/pocWebsite/aboutus.html">
+        <image
+            jcr:lastModified="{Date}2014-12-24T18:42:02.417+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

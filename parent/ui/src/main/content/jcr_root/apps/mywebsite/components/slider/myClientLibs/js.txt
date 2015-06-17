@@ -1,0 +1,4 @@
+#base=js
+jquery-1.11.1.min.js
+jquery.bxslider.js
+jquery.bxslider.min.js

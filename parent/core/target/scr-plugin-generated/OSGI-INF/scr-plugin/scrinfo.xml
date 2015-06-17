@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="com.day.cq5.scheduler.CleanupServiceImpl">
+        <implementation class="com.day.cq5.scheduler.CleanupServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="java.lang.Runnable"/>
+        </service>
+        <property name="scheduler.expression" type="String" value="*/4 * * * * ?" private="false"/>
+        <property name="cleanupPath" type="String" value="/tmp/mypath" private="false"/>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.day.cq5.scheduler.CleanupServiceImpl" private="false"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository" checked="true"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.tcs.dess.poc.bean.User">
+        <implementation class="com.tcs.dess.poc.bean.User"/>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.tcs.dess.poc.bean.User" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="com.tcs.dess.poc.db.impl.DBServiceImpl">
+        <implementation class="com.tcs.dess.poc.db.impl.DBServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.tcs.dess.poc.db.DBService"/>
+        </service>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.tcs.dess.poc.db.impl.DBServiceImpl" private="false"/>
+        <reference name="dataSourcePool" interface="com.day.commons.datasource.poolservice.DataSourcePool" cardinality="1..1" policy="static" bind="bindDataSourcePool" unbind="unbindDataSourcePool" checked="true"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="com.tcs.dess.poc.um.impl.UserManagementImpl">
+        <implementation class="com.tcs.dess.poc.um.impl.UserManagementImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.tcs.dess.poc.um.UserManagement"/>
+        </service>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.tcs.dess.poc.um.impl.UserManagementImpl" private="false"/>
+        <reference name="dbService" interface="com.tcs.dess.poc.db.DBService" cardinality="1..1" policy="static" bind="bindDbService" unbind="unbindDbService" checked="true"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.day.cq5.myapp.MySafeMethodServlet">
+        <implementation class="com.day.cq5.myapp.MySafeMethodServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/company/repo" private="false"/>
+        <property name="sling.servlet.methods" value="GET" private="false"/>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.day.cq5.myapp.MySafeMethodServlet" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.day.cq5.myapp.FlightSearchServlet">
+        <implementation class="com.day.cq5.myapp.FlightSearchServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/FlightSearchServlet" private="false"/>
+        <property name="sling.servlet.resourceTypes" value="mywebsite/components/contentpage" private="false"/>
+        <property name="sling.servlet.selectors" value="data" private="false"/>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.day.cq5.myapp.FlightSearchServlet" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.day.cq5.myapp.RegistrationServlet">
+        <implementation class="com.day.cq5.myapp.RegistrationServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/poc/registration" private="false"/>
+        <property name="service.vendor" type="String" value="Adobe" private="true"/>
+        <property name="service.pid" value="com.day.cq5.myapp.RegistrationServlet" private="false"/>
+        <reference name="repo" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepo" unbind="unbindRepo" checked="true"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.tcs.dess.poc.um.servlet.UserManagementServlet">
+        <implementation class="com.tcs.dess.poc.um.servlet.UserManagementServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" private="false">
+            /bin/authenticate.html
+            /bin/register.html
+        </property>
+        <property name="sling.servlet.methods" value="POST" private="false"/>
+        <property name="service.pid" type="String" value="com.tcs.dess.poc.um.servlet.UserManagementServlet" private="false"/>
+        <property name="service.description" type="String" value="User Management Service call" private="false"/>
+        <property name="service.vendor" type="String" value="TCS" private="false"/>
+        <reference name="userManagement" interface="com.tcs.dess.poc.um.UserManagement" cardinality="1..1" policy="static" bind="bindUserManagement" unbind="unbindUserManagement" checked="true"/>
+    </scr:component>
+</components>
